@@ -6,7 +6,7 @@ name: joy2
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 */6 * * *'
+    - cron: '1 */5 * * *'
   watch:
     types: started
   repository_dispatch:
@@ -40,6 +40,6 @@ jobs:
           cd ~/jd_scripts
           node jd_crazy_joy_coin.js
         env:
-          JD_COOKIE: ${{ secrets.JD_COOKIE }}
+          JD_COOKIE: ${{ secrets.JD_COOKIE2 }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
           JD_USER_AGENT: ${{ secrets.JD_USER_AGENT }}
