@@ -43,4 +43,3 @@ jobs:
           JD_COOKIE: ${{ secrets.JD_COOKIE2 }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
           JD_USER_AGENT: ${{ secrets.JD_USER_AGENT }}
-© 2021 GitHub, Inc.
